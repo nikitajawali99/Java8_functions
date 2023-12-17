@@ -35,6 +35,7 @@ public class BiConsumerTest {
 				System.out.println("Name:" + u);
 			}
 		};
+		
 		biConsumer2.accept(5, "Java");
 		System.out.println();
 		System.out.println("And then results :");
