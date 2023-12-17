@@ -1,0 +1,10 @@
+Supplier  -->
+
+1)Used for supplying values even if there is no inputs coming
+in/supply values based on our requirement.
+2)interface Supplier<R>{
+}
+3)It has one method :
+T get(){}
+4)It returns an instance and accepts no inputs.
+5)It can't be chained.

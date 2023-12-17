@@ -1,0 +1,23 @@
+Predicate -->
+
+1)Predicate is used for checking the conditions and returning
+the boolean value.
+2)It is basically perform some operations and return the result.
+
+interface Predicate<T>{
+}
+
+3)It has test method : public boolean test(T t){}
+4)It has methods : 
+1) and() - Returns true if both predicates results are true
+2) or() - Returns true if either one of the predicate result is true
+3) negate() - Reverse the predicate result
+5)It has static method : isEqual()
+
+BiPredicate -->
+
+1)It takes 2 inputs and return the boolean result
+2)interface BiPredicate<T,V>{
+}
+3)It has methods : 1)and() 2)or() 3)negate()
+4)It has test method : public boolean test(T t,U v){}

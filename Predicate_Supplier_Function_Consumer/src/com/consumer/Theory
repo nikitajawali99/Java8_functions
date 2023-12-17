@@ -1,0 +1,10 @@
+Consumer -->
+
+1)It accepts the one input and doesn't return anything.
+2)It has accept() method
+interface Consumer<T>{
+void accept(T t){} 
+}
+3)It has andThen() method to call 2nd consumer result and pass to 1st consumer.
+4)It will throw Null Pointer Exception if 1st result throws null
+default BiConsumer<T,U> andThen(BiConsumer<? super T,? super U > after){}

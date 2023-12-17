@@ -1,0 +1,17 @@
+Function ** ->
+
+1)It takes one input, perform some operations and second input is of result type.
+2)interface Function<T,R>{
+
+R apply(T t ){ }
+
+}
+
+T -> input type, R -> result type
+3)It has compose() operation.
+4)It has two function chaining:
+
+F1 & F2
+
+F1.andThen(F2)  -> first F1 will be applied followed by F2
+F1.compose(F2)  -> first F2 will be applied followed by F1
