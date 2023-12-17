@@ -8,6 +8,7 @@ public class PredicateMain {
 
 	public static void main(String[] args) {
 
+		
 		/* Ex - 1 */
 		Predicate<String> s = s1 -> s1.length() > 6;
 		System.out.println("Is length is greater than 6:" + s.test("Test"));

@@ -49,7 +49,7 @@ public class MovieTest {
 				Consumer<Movie> e2 = e3 -> System.out.println(e3.getName().toUpperCase() + "|"
 						+ e3.getHero().toUpperCase() + "|" + e3.getHeroine().toUpperCase());
 				e2.accept(movie);
-				
+
 			}
 		}
 	}
@@ -59,5 +59,6 @@ public class MovieTest {
 		l.add(new Movie("2 States", "Rrjun", "Alia"));
 		l.add(new Movie("Animal park", "Ranbir", "Rashmika"));
 		l.add(new Movie("Sultan", "Salman", "Anushka"));
+		
 	}
 }

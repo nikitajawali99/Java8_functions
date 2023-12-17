@@ -15,7 +15,6 @@ public class PredicateTest {
 		
 		Predicate<SoftwareEnginner> e = e1 -> e1.age> 18 && e1.isHavingGf==true;
 		
-	
 		if (e.test(new SoftwareEnginner("Vijay", 20, false))) {
 			System.out.println("success");
 		} else

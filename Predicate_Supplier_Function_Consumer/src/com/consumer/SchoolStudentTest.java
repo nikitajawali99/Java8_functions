@@ -34,7 +34,6 @@ public class SchoolStudentTest {
 			String apply = f.apply(schoolStudent);
 			System.out.println(schoolStudent.getName() + "|" + "Grade :" + apply);
 		}
-
 	}
 
 	private static void populate(List<SchoolStudent> list) {

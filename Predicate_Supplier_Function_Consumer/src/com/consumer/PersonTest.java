@@ -14,6 +14,7 @@ public class PersonTest {
 		System.out.println("*** 2");
 		printActivities();
 
+		
 	}
 
 	private static void printActivities() {

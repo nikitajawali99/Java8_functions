@@ -33,9 +33,5 @@ public class StudentTest {
 		s1.andThen(s2).accept(new Student("Nikita",89));
 		
 	}
-	
-	
-	
-	
 
 }

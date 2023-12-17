@@ -10,7 +10,6 @@ public class BiPredicateTest {
 
 			if (n % 2 == 0 && s.length() > 0)
 				return true;
-
 			return false;
 
 		};

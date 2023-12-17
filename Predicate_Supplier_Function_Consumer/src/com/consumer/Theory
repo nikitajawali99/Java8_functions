@@ -1,5 +1,6 @@
 Consumer -->
 
+
 1)It accepts the one input and doesn't return anything.
 2)It has accept() method
 interface Consumer<T>{

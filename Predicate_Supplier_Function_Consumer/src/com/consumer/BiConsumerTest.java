@@ -41,5 +41,4 @@ public class BiConsumerTest {
 		biConsumer.andThen(biConsumer2).accept(9, "C+++");
 
 	}
-
 }

@@ -6,6 +6,7 @@ public class BiFunctionTest {
 
 	public static void main(String[] args) {
 
+		
 		BiFunction<String, String, Integer> f1 = (s1, s2) -> s1.length() + s2.length();
 		System.out.println("Length bi-directional:" + f1.apply("Nikita", "Nikita"));
 

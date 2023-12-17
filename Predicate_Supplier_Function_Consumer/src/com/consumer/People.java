@@ -61,7 +61,6 @@ public class People {
 
 	public People() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override

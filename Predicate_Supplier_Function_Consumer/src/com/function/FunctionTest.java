@@ -25,5 +25,4 @@ public class FunctionTest {
 		System.out.println(andThenresult2.apply("Jai Mata Di"));
 		
 	}
-
 }

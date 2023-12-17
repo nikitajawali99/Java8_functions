@@ -29,7 +29,6 @@ public class SchoolStudent {
 
 	public SchoolStudent() {
 		super();
-		// TODO Auto-generated constructor stub
 	}
 
 	@Override

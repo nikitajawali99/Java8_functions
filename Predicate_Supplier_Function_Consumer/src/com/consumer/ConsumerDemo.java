@@ -22,9 +22,6 @@ public class ConsumerDemo {
 		System.out.println(list1);
 		
 		
-		
-		
-		
 	}
 
 }

@@ -46,5 +46,4 @@ public class SupplierTest {
 	private static Person get(Supplier<Person> supplier) {
 		return supplier.get();
 	}
-
 }

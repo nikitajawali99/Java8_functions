@@ -21,5 +21,4 @@ public class SupplierDemo {
 		System.out.println(otps.get());
 
 	}
-
 }
